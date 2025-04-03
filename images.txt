@@ -23,9 +23,4 @@
 --platform=linux/arm64 snowdreamtech/frpc
 
 # 基础版（Apache + PHP）
---platform=linux/arm64 wordpress:6.5.3-php8.3-apache
---platform=linux/arm64 wordpress:6.5-php8.2-apache
-
-# Alpine 轻量版
---platform=linux/arm64 wordpress:6.5.3-php8.3-apache-alpine
---platform=linux/arm64 wordpress:6.5-php8.2-fpm-alpine
+--platform=linux/arm64 wordpress:6.7.2-php8.3-fpm
