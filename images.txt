@@ -1,2 +1,6 @@
-docker pull --platform=linux/arm64 wordpress:6.7.2-php8.3-fpm-alpine
-docker pull --platform=linux/arm64 wordpress:6.7.2-php8.2-fpm-alpine  # 备用
+docker pull --platform=linux/arm64 mysql:8.0-oracle-linux-8
+docker pull --platform=linux/arm64 mysql:8.0.37  # 官方标准版
+docker pull --platform=linux/arm64 nginx:1.27-alpine-slim
+docker pull --platform=linux/arm64 nginx:1.27-alpine-brotli  # 压缩增强版
+docker pull --platform=linux/arm64 php:8.3-fpm-alpine  # 独立 PHP-FPM
+docker pull --platform=linux/arm64 redis:7.2-alpine
